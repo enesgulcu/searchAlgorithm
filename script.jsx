@@ -23,21 +23,56 @@ const fetchInput = async () => {
     }
 }
 
+
+  
+
 // verileri kelime kelime ayıran fonksiyon
-const splitWords = async (data) => {
-    
-    data.map((item) => {
-        console.log(item.sentence.split(' '))
+const databaseSplitWords = async (data, input) => {
+
+    const subData  = []
+    const inputData  = []
+
+    const point = []
+
+    await data.map((item) => {
+        let counter = 0;
+        item.subcategories.map((sub) => {
+            subData.push(sub.split(' '))
+        })
     })
+
+    await input.map((item) => {
+        inputData.push(item.sentence.split(' '))
+    })
+    
+    subData.map((item, index) => {
+        item.map((subItem, subIndex) => { // her cümlenin içini tek tek gezer
+            inputData[0].map((inputItem, inputIndex) => { // inputun içindeki cümleleri tek tek gezer
+                const chooseSubItem = subItem.toLowerCase();
+                const chooseInputItem = inputItem.toLowerCase();
+
+                if(chooseSubItem.includes(chooseInputItem)){ // eğer inputtaki cümle ile database cümlesi aynı ise
+                    console.log(chooseSubItem);
+                    console.log("cümle sırası :" + index);
+                    console.log("kelime sırası :" + subIndex);
+                    console.log("inputIndex :" + inputIndex);
+                    console.log("##############################")
+                }
+            })
+        })
+    })
+
 }
+
 
 
 // uygulama
 const App = async () => {
-    const data = await fetchData()
+    const database = await fetchData()
     const input = await fetchInput()
-
-    splitWords(input) 
+    
+    const databasewords = await databaseSplitWords(database, input)
+    console.log(databasewords);
   
 }
 
