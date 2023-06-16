@@ -17,12 +17,13 @@ const SearchBar:React.FC = () => {
     
   }, [searchText])
 
+
   return (
     <>
       <div className='w-full flex justify-center items-start bg-blue-200'>
         <form className='m-2 p-4 w-full flex flex-col justify-start items-center' action="">
           <label className='font-bold text-4xl m-2 p-2 text-gray-900' htmlFor="search">Search Text Box</label>
-          <input value={searchText} onChange={(e)=> setSearchText(e.target.value)} className='p-4 rounded-md w-1/2 shadow-md border-blue-300 border-2' type="text" name="search" id="search" />
+          <input type="search" value={searchText} onChange={(e)=> setSearchText(e.target.value)} className='p-4 rounded-md w-1/2 shadow-md border-blue-300 border-2' name="search" id="search" />
         </form>
       </div>
 

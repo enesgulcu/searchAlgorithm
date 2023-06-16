@@ -1,237 +1,761 @@
 [
-    {
-      "name": "Rinoplasti (Burun Estetiği)",
-      "subcategories": [
-        "Estetik Rinoplasti",
-        "Burun Kemeri Kırığı Düzeltme",
-        "Burun Ucu Estetiği",
-        "Burun Sırtı Estetiği",
-        "Burun Kanatlarının İnceltilmesi",
-        "Burun Asimetrisinin Düzeltilmesi",
-        "Burun Deliklerinin Küçültülmesi",
-        "Burun Kemerinin İnceltilmesi",
-        "Burun Kemiğinin Kırık veya Eğrilik Düzeltmesi",
-        "Fonksiyonel Rinoplasti",
-        "Septoplasti (Burun Septumu Düzeltme)",
-        "Konka Radyofrekans Ablasyonu (Burun Etleri Tedavisi)",
-        "Tüberinoplasti (Burun Valfi Düzeltme)",
-        "Rekonstrüktif Rinoplasti",
-        "Travmatik Burun Deformitelerinin Düzeltimi",
-        "Tümörün Çıkarılması Sonrası Burun Rekonstrüksiyonu",
-        "Konjenital Burun Anomalilerinin Düzeltimi",
-        "Revizyon Rinoplasti",
-        "Önceki Rinoplasti Sonrası Yetersiz Sonuçların Düzeltimi",
-        "Komplikasyonların Düzeltimi"
-      ]
-    },
-    {
-      "name": "Meme Estetiği",
-      "subcategories": [
-        "Meme Büyütme",
-        "Meme İmplantlarıyla Meme Büyütme",
-        "Yağ Enjeksiyonuyla Meme Büyütme",
-        "Meme Küçültme",
-        "Klasik Meme Küçültme Cerrahisi",
-        "Vertical Scar (Lollipop) Meme Küçültme Cerrahisi",
-        "Meme Dikleştirme",
-        "Mastopeksi",
-        "Klasik Mastopeksi",
-        "Lollipop Mastopeksi",
-        "Anchor (Gemi Yelkeni) Mastopeksi",
-        "Gynecomastia Cerrahisi (Erkeklerde Meme Küçültme)",
-        "Meme Rekonstrüksiyonu",
-        "İmplant ile Meme Rekonstrüksiyonu",
-        "Doku Genişletici ile Meme Rekonstrüksiyonu",
-        "Flep (Doku Transferi) ile Meme Rekonstrüksiyonu",
-        "Meme Asimetrisi Düzeltme",
-        "Areola Estetiği",
-        "Areola Büyütme",
-        "Areola Küçültme",
-        "Areola Rengini Düzeltme",
-        "Sternum (Göğüs Kemiği) Estetiği",
-        "Göğüs Kemiği İçin Cerrahi Düzeltme",
-        "Göğüs Kemiği İçin Filler veya İmplantlar"
-      ]
-    },
-    {
-      "name": "Karın Estetiği",
-      "subcategories": [
-        "Karın Germe (Abdominoplasti)",
-        "Tam Karın Germe",
-        "Mini Karın Germe",
-        "Fleur-de-Lis Karın Germe",
-        "Karın Duvarı Onarımı ile Karın Germe",
-        "Liposuction (Yağ Alma)",
-        "Vaser Liposuction",
-        "Lazer Liposuction",
-        "Ultrasonik Liposuction",
-        "Power-Assisted Liposuction (PAL)",
-        "Karın Kası Onarımı (Diastasis Recti)",
-        "Karın Dolgusu",
-        "Karın Estetiği Revizyonu"
-      ]
-    },
-    {
-      "name": "Yüz Germe (Yüz Asansörü)",
-      "subcategories": [
-        "Alın Germe",
-        "Endoskopik Alın Germe",
-        "Geleneksel Alın Germe",
-        "Kaş Kaldırma",
-        "Göz Kapağı Estetiği (Blefaroplasti)",
-        "Üst Göz Kapağı Estetiği",
-        "Alt Göz Kapağı Estetiği",
-        "Üst ve Alt Göz Kapağı Estetiği",
-        "Yüz ve Boyun Germe",
-        "SMAS Yüz Germe",
-        "Deri Cilt Yüz Germe",
-        "Deri ve SMAS Yüz Germe",
-        "Boyun Germe",
-        "Boyun Liposuctionu",
-        "Boyun Asimetrisi Düzeltme",
-        "Yanak Dolgusu",
-        "Dudak Dolgusu",
-        "Çene Estetiği",
-        "Çene İmplantı",
-        "Çene Dolgusu",
-        "Çene Kemiği Estetiği",
-        "Bıngıldak Estetiği",
-        "Burun Dudak Çizgisi Estetiği",
-        "Yüz Dolgusu",
-        "Hyaluronik Asit Dolguları",
-        "Kolajen Dolguları",
-        "Poli-L-Laktik Asit Dolguları",
-        "Kalsiyum Hidroksiapatit Dolguları"
-      ]
-    },
-    {
-      "name": "Vücut Kontürleme",
-      "subcategories": [
-        "Liposuction (Yağ Alma)",
-        "Vaser Liposuction",
-        "Lazer Liposuction",
-        "Ultrasonik Liposuction",
-        "Power-Assisted Liposuction (PAL)",
-        "Kolların Sıkılaştırılması",
-        "Kol Germe Cerrahisi",
-        "Liposuction ile Kol Sıkılaştırılması",
-        "Uyluk Estetiği",
-        "Uyluk Germe",
-        "Uyluk Liposuctionu",
-        "Popo Estetiği",
-        "Gluteal İmplant",
-        "Gluteal Dolgusu",
-        "Gluteal Germe",
-        "Karın Estetiği",
-        "Karın Germe (Abdominoplasti)",
-        "Liposuction (Yağ Alma)",
-        "Karın Dolgusu",
-        "Karın Estetiği Revizyonu",
-        "Bel Estetiği",
-        "Bel Germe",
-        "Bel Liposuctionu",
-        "Bacak Estetiği",
-        "Bacak Germe",
-        "Bacak Liposuctionu",
-        "Diz Estetiği",
-        "Diz Germe",
-        "Diz Liposuctionu",
-        "Vajina Estetiği",
-        "Labioplasti (Dudak Küçültme)",
-        "Vajina Daraltma",
-        "Vajina Sıkılaştırma"
-      ]
-    },
-    {
-      "name": "Saç Estetiği",
-      "subcategories": [
-        "Saç Ekimi",
-        "FUE Saç Ekimi",
-        "FUT Saç Ekimi",
-        "DHI Saç Ekimi",
-        "Saç PRP Tedavisi",
-        "Saç Mezoterapisi",
-        "Saç Dermapen Tedavisi",
-        "Saç Lazer Terapisi",
-        "Saç Dökülmesi Tedavisi"
-      ]
-    },
-    {
-      "name": "Genital Estetik",
-      "subcategories": [
-        "Vajina Daraltma",
-        "Lazerle Vajina Daraltma",
-        "Cerrahi Vajina Daraltma",
-        "Labioplasti (Dudak Estetiği)",
-        "İç Dudak Estetiği",
-        "Dış Dudak Estetiği",
-        "Klitoral Kapak Estetiği",
-        "Vajinal Rejuvenasyon",
-        "Lazerle Vajinal Rejuvenasyon",
-        "Radyofrekansla Vajinal Rejuvenasyon",
-        "PRP ile Vajinal Rejuvenasyon"
-      ]
-    },
-    {
-      "name": "Diş Estetiği",
-      "subcategories": [
-        "Porselen Laminate Veneer",
-        "Porselen Kron ve Köprü Uygulamaları",
-        "Diş Beyazlatma",
-        "Diş İmplantı",
-        "Diş Dolgusu",
-        "Diş Protezi"
-      ]
-    },
-    {
-      "name": "Cilt Estetiği",
-      "subcategories": [
-        "Botoks Uygulamaları",
-        "Dolgu Uygulamaları",
-        "Kimyasal Peeling",
-        "Lazer Cilt Yenileme",
-        "Cilt Sıkılaştırma",
-        "Lazer Epilasyon",
-        "Leke Tedavileri",
-        "Dermapen ve Mikro iğneleme",
-        "PRP (Platelet Zengin Plazma) Tedavisi",
-        "Mezoterapi",
-        "Tattoo Silme (Dövme Silme)"
-      ]
-    },
-    {
-      "name": "Estetik Dermatoloji",
-      "subcategories": [
-        "Akne Tedavisi (ilaçlar, lazer tedavileri, kimyasal peelingler vb.)",
-        "Leke Tedavileri (lazer tedavileri, kimyasal peelingler, kriyoterapi vb.)",
-        "Cilt Sıkılaştırma (lazerler, radyofrekans, ultrason vb.)",
-        "Yaşlanma Karşıtı Tedaviler (PRP, mezoterapi, botoks, dolgu uygulamaları vb.)",
-        "Cilt Yenileme ve Gençleştirme (lazerler, mikro iğneleme, PRP vb.)",
-        "Akne Izı Tedavisi (lazer tedavileri, mikro iğneleme, kimyasal peelingler vb.)",
-        "Çatlak Tedavisi (lazer tedavileri, mezoterapi, dermaroller vb.)",
-        "Gözaltı Morlukları Tedavisi (lazer tedavileri, mezoterapi vb.)",
-        "Dudak Dolgusu",
-        "Çene Hattı Kontürü (botoks, dolgu uygulamaları vb.)",
-        "Yüz ve Dudak Bölgesinde Dolgu Uygulamaları",
-        "Botoks Uygulamaları",
-        "Saç PRP Tedavisi",
-        "Cilt PRP Tedavisi"
-      ]
-    },
-    {
-      "name": "Lazer Tedavileri",
-      "subcategories": [
-        "Lazer Epilasyon",
-        "Lazerle Cilt Yenileme",
-        "Lazerle Leke Tedavisi",
-        "Lazerle Kılcal Damar Tedavisi",
-        "Lazerle Akne Tedavisi",
-        "Lazerle Çatlak Tedavisi",
-        "Lazerle Yara İzi Tedavisi",
-        "Lazerle Dövme Silme",
-        "Lazerle Cilt Sıkılaştırma",
-        "Lazerle Ben Tedavisi"
-      ]
-    }
-  ]
-  
+  {
+    "name": "Rinoplasti (Burun Estetiği)",
+    "subcategories": [
+      {
+        "searchTerm": "Estetik Rinoplasti",
+        "searchAvarage": 71
+      },
+      {
+        "searchTerm": "Burun Kemeri burun burun Kırığı Düzeltme",
+        "searchAvarage": 23
+      },
+      {
+        "searchTerm": "Burun Ucu Estetiği",
+        "searchAvarage": 89
+      },
+      {
+        "searchTerm": "Burun Sırtı Estetiği",
+        "searchAvarage": 54
+      },
+      {
+        "searchTerm": "Burun Kanatlarının İnceltilmesi",
+        "searchAvarage": 7
+      },
+      {
+        "searchTerm": "Burun Asimetrisinin Düzeltilmesi",
+        "searchAvarage": 92
+      },
+      {
+        "searchTerm": "Burun Deliklerinin Küçültülmesi",
+        "searchAvarage": 32
+      },
+      {
+        "searchTerm": "Burun Kemerinin İnceltilmesi",
+        "searchAvarage": 45
+      },
+      {
+        "searchTerm": "Burun Kemiğinin Kırık veya Eğrilik Düzeltmesi",
+        "searchAvarage": 80
+      },
+      {
+        "searchTerm": "Fonksiyonel Rinoplasti",
+        "searchAvarage": 16
+      },
+      {
+        "searchTerm": "Septoplasti (Burun Septumu Düzeltme)",
+        "searchAvarage": 60
+      },
+      {
+        "searchTerm": "Konka Radyofrekans Ablasyonu (Burun Etleri Tedavisi)",
+        "searchAvarage": 37
+      },
+      {
+        "searchTerm": "Tüberinoplasti (Burun Valfi Düzeltme)",
+        "searchAvarage": 68
+      },
+      {
+        "searchTerm": "Rekonstrüktif Rinoplasti",
+        "searchAvarage": 91
+      },
+      {
+        "searchTerm": "Travmatik Burun Deformitelerinin Düzeltimi",
+        "searchAvarage": 49
+      },
+      {
+        "searchTerm": "Tümörün Çıkarılması Sonrası Burun Rekonstrüksiyonu",
+        "searchAvarage": 75
+      },
+      {
+        "searchTerm": "Konjenital Burun Anomalilerinin Düzeltimi",
+        "searchAvarage": 13
+      },
+      {
+        "searchTerm": "Revizyon Rinoplasti",
+        "searchAvarage": 28
+      },
+      {
+        "searchTerm": "Önceki Rinoplasti Sonrası Yetersiz Sonuçların Düzeltimi",
+        "searchAvarage": 82
+      },
+      {
+        "searchTerm": "Komplikasyonların Düzeltimi",
+        "searchAvarage": 41
+      }
+    ]
+  },
+  {
+    "name": "Meme Estetiği",
+    "subcategories": [
+      {
+        "searchTerm": "Meme Büyütme",
+        "searchAvarage": 71
+      },
+      {
+        "searchTerm": "Meme İmplantlarıyla Meme Büyütme",
+        "searchAvarage": 28
+      },
+      {
+        "searchTerm": "Yağ Enjeksiyonuyla Meme Büyütme",
+        "searchAvarage": 49
+      },
+      {
+        "searchTerm": "Meme Küçültme",
+        "searchAvarage": 87
+      },
+      {
+        "searchTerm": "Klasik Meme Küçültme Cerrahisi",
+        "searchAvarage": 63
+      },
+      {
+        "searchTerm": "Vertical Scar (Lollipop) Meme Küçültme Cerrahisi",
+        "searchAvarage": 92
+      },
+      {
+        "searchTerm": "Meme Dikleştirme",
+        "searchAvarage": 15
+      },
+      {
+        "searchTerm": "Mastopeksi",
+        "searchAvarage": 34
+      },
+      {
+        "searchTerm": "Klasik Mastopeksi",
+        "searchAvarage": 79
+      },
+      {
+        "searchTerm": "Lollipop Mastopeksi",
+        "searchAvarage": 42
+      },
+      {
+        "searchTerm": "Anchor (Gemi Yelkeni) Mastopeksi",
+        "searchAvarage": 61
+      },
+      {
+        "searchTerm": "Gynecomastia Cerrahisi (Erkeklerde Meme Küçültme)",
+        "searchAvarage": 93
+      },
+      {
+        "searchTerm": "Meme Rekonstrüksiyonu",
+        "searchAvarage": 24
+      },
+      {
+        "searchTerm": "İmplant ile Meme Rekonstrüksiyonu",
+        "searchAvarage": 55
+      },
+      {
+        "searchTerm": "Doku Genişletici ile Meme Rekonstrüksiyonu",
+        "searchAvarage": 81
+      },
+      {
+        "searchTerm": "Flep (Doku Transferi) ile Meme Rekonstrüksiyonu",
+        "searchAvarage": 38
+      },
+      {
+        "searchTerm": "Meme Asimetrisi Düzeltme",
+        "searchAvarage": 66
+      },
+      {
+        "searchTerm": "Areola Estetiği",
+        "searchAvarage": 42
+      },
+      {
+        "searchTerm": "Areola Büyütme",
+        "searchAvarage": 18
+      },
+      {
+        "searchTerm": "Areola Küçültme",
+        "searchAvarage": 72
+      },
+      {
+        "searchTerm": "Areola Rengini Düzeltme",
+        "searchAvarage": 91
+      },
+      {
+        "searchTerm": "Sternum (Göğüs Kemiği) Estetiği",
+        "searchAvarage": 57
+      },
+      {
+        "searchTerm": "Göğüs Kemiği İçin Cerrahi Düzeltme",
+        "searchAvarage": 28
+      },
+      {
+        "searchTerm": "Göğüs Kemiği İçin Filler veya İmplantlar",
+        "searchAvarage": 79
+      }
+    ]
+  },
+  {
+    "name": "Karın Estetiği",
+    "subcategories": [
+      {
+        "searchTerm": "Karın Germe (Abdominoplasti)",
+        "searchAvarage": 67
+      },
+      {
+        "searchTerm": "Tam Karın Germe",
+        "searchAvarage": 51
+      },
+      {
+        "searchTerm": "Mini Karın Germe",
+        "searchAvarage": 88
+      },
+      {
+        "searchTerm": "Fleur-de-Lis Karın Germe",
+        "searchAvarage": 32
+      },
+      {
+        "searchTerm": "Karın Duvarı Onarımı ile Karın Germe",
+        "searchAvarage": 75
+      },
+      {
+        "searchTerm": "Liposuction (Yağ Alma)",
+        "searchAvarage": 94
+      },
+      {
+        "searchTerm": "Vaser Liposuction",
+        "searchAvarage": 41
+      },
+      {
+        "searchTerm": "Lazer Liposuction",
+        "searchAvarage": 68
+      },
+      {
+        "searchTerm": "Ultrasonik Liposuction",
+        "searchAvarage": 23
+      },
+      {
+        "searchTerm": "Power-Assisted Liposuction (PAL)",
+        "searchAvarage": 79
+      },
+      {
+        "searchTerm": "Karın Kası Onarımı (Diastasis Recti)",
+        "searchAvarage": 57
+      },
+      {
+        "searchTerm": "Karın Dolgusu",
+        "searchAvarage": 88
+      },
+      {
+        "searchTerm": "Karın Estetiği Revizyonu",
+        "searchAvarage": 45
+      }
+    ]
+  },
+  {
+    "name": "Yüz Germe (Yüz Asansörü)",
+    "subcategories": [
+      {
+        "searchTerm": "Alın Germe",
+        "searchAvarage": 39
+      },
+      {
+        "searchTerm": "Endoskopik Alın Germe",
+        "searchAvarage": 72
+      },
+      {
+        "searchTerm": "Geleneksel Alın Germe",
+        "searchAvarage": 56
+      },
+      {
+        "searchTerm": "Kaş Kaldırma",
+        "searchAvarage": 87
+      },
+      {
+        "searchTerm": "Göz Kapağı Estetiği (Blefaroplasti)",
+        "searchAvarage": 41
+      },
+      {
+        "searchTerm": "Üst Göz Kapağı Estetiği",
+        "searchAvarage": 79
+      },
+      {
+        "searchTerm": "Alt Göz Kapağı Estetiği",
+        "searchAvarage": 63
+      },
+      {
+        "searchTerm": "Üst ve Alt Göz Kapağı Estetiği",
+        "searchAvarage": 89
+      },
+      {
+        "searchTerm": "Yüz ve Boyun Germe",
+        "searchAvarage": 28
+      },
+      {
+        "searchTerm": "SMAS Yüz Germe",
+        "searchAvarage": 55
+      },
+      {
+        "searchTerm": "Deri Cilt Yüz Germe",
+        "searchAvarage": 82
+      },
+      {
+        "searchTerm": "Deri ve SMAS Yüz Germe",
+        "searchAvarage": 47
+      },
+      {
+        "searchTerm": "Boyun Germe",
+        "searchAvarage": 76
+      },
+      {
+        "searchTerm": "Boyun Liposuctionu",
+        "searchAvarage": 32
+      },
+      {
+        "searchTerm": "Boyun Asimetrisi Düzeltme",
+        "searchAvarage": 67
+      },
+      {
+        "searchTerm": "Yanak Dolgusu",
+        "searchAvarage": 41
+      },
+      {
+        "searchTerm": "Dudak Dolgusu",
+        "searchAvarage": 87
+      },
+      {
+        "searchTerm": "Çene Estetiği",
+        "searchAvarage": 52
+      },
+      {
+        "searchTerm": "Çene İmplantı",
+        "searchAvarage": 75
+      },
+      {
+        "searchTerm": "Çene Dolgusu",
+        "searchAvarage": 38
+      },
+      {
+        "searchTerm": "Çene Kemiği Estetiği",
+        "searchAvarage": 92
+      },
+      {
+        "searchTerm": "Bıngıldak Estetiği",
+        "searchAvarage": 29
+      },
+      {
+        "searchTerm": "Burun Dudak Çizgisi Estetiği",
+        "searchAvarage": 66
+      },
+      {
+        "searchTerm": "Yüz Dolgusu",
+        "searchAvarage": 44
+      },
+      {
+        "searchTerm": "Hyaluronik Asit Dolguları",
+        "searchAvarage": 76
+      },
+      {
+        "searchTerm": "Kolajen Dolguları",
+        "searchAvarage": 55
+      },
+      {
+        "searchTerm": "Poli-L-Laktik Asit Dolguları",
+        "searchAvarage": 81
+      },
+      {
+        "searchTerm": "Kalsiyum Hidroksiapatit Dolguları",
+        "searchAvarage": 37
+      }
+    ]
+  },
+  {
+    "name": "Vücut Kontürleme",
+    "subcategories": [
+      {
+        "searchTerm": "Liposuction (Yağ Alma)",
+        "searchAverage": 65
+      },
+      {
+        "searchTerm": "Vaser Liposuction",
+        "searchAverage": 49
+      },
+      {
+        "searchTerm": "Lazer Liposuction",
+        "searchAverage": 86
+      },
+      {
+        "searchTerm": "Ultrasonik Liposuction",
+        "searchAverage": 21
+      },
+      {
+        "searchTerm": "Power-Assisted Liposuction (PAL)",
+        "searchAverage": 73
+      },
+      {
+        "searchTerm": "Kolların Sıkılaştırılması",
+        "searchAverage": 92
+      },
+      {
+        "searchTerm": "Kol Germe Cerrahisi",
+        "searchAverage": 37
+      },
+      {
+        "searchTerm": "Liposuction ile Kol Sıkılaştırılması",
+        "searchAverage": 64
+      },
+      {
+        "searchTerm": "Uyluk Estetiği",
+        "searchAverage": 77
+      },
+      {
+        "searchTerm": "Uyluk Germe",
+        "searchAverage": 52
+      },
+      {
+        "searchTerm": "Uyluk Liposuctionu",
+        "searchAverage": 89
+      },
+      {
+        "searchTerm": "Popo Estetiği",
+        "searchAverage": 38
+      },
+      {
+        "searchTerm": "Gluteal İmplant",
+        "searchAverage": 65
+      },
+      {
+        "searchTerm": "Gluteal Dolgusu",
+        "searchAverage": 42
+      },
+      {
+        "searchTerm": "Gluteal Germe",
+        "searchAverage": 71
+      },
+      {
+        "searchTerm": "Karın Estetiği",
+        "searchAverage": 91
+      },
+      {
+        "searchTerm": "Karın Germe (Abdominoplasti)",
+        "searchAverage": 58
+      },
+      {
+        "searchTerm": "Liposuction (Yağ Alma)",
+        "searchAverage": 29
+      },
+      {
+        "searchTerm": "Karın Dolgusu",
+        "searchAverage": 76
+      },
+      {
+        "searchTerm": "Karın Estetiği Revizyonu",
+        "searchAverage": 55
+      },
+      {
+        "searchTerm": "Bel Estetiği",
+        "searchAverage": 82
+      },
+      {
+        "searchTerm": "Bel Germe",
+        "searchAverage": 47
+      },
+      {
+        "searchTerm": "Bel Liposuctionu",
+        "searchAverage": 74
+      },
+      {
+        "searchTerm": "Bacak Estetiği",
+        "searchAverage": 39
+      },
+      {
+        "searchTerm": "Bacak Germe",
+        "searchAverage": 66
+      },
+      {
+        "searchTerm": "Bacak Liposuctionu",
+        "searchAverage": 43
+      },
+      {
+        "searchTerm": "Diz Estetiği",
+        "searchAverage": 81
+      },
+      {
+        "searchTerm": "Diz Germe",
+        "searchAverage": 36
+      },
+      {
+        "searchTerm": "Diz Liposuctionu",
+        "searchAverage": 63
+      },
+      {
+        "searchTerm": "Vajina Estetiği",
+        "searchAverage": 89
+      },
+      {
+        "searchTerm": "Labioplasti (Dudak Küçültme)",
+        "searchAverage": 54
+      },
+      {
+        "searchTerm": "Vajina Daraltma",
+        "searchAverage": 72
+      },
+      {
+        "searchTerm": "Vajina Sıkılaştırma",
+        "searchAverage": 27
+      }
+    ]
+  },
+  {
+    "name": "Saç Estetiği",
+    "subcategories": [
+      {
+        "searchTerm": "Saç Ekimi",
+        "searchAverage": 68
+      },
+      {
+        "searchTerm": "FUE Saç Ekimi",
+        "searchAverage": 46
+      },
+      {
+        "searchTerm": "FUT Saç Ekimi",
+        "searchAverage": 84
+      },
+      {
+        "searchTerm": "DHI Saç Ekimi",
+        "searchAverage": 32
+      },
+      {
+        "searchTerm": "Saç PRP Tedavisi",
+        "searchAverage": 76
+      },
+      {
+        "searchTerm": "Saç Mezoterapisi",
+        "searchAverage": 52
+      },
+      {
+        "searchTerm": "Saç Dermapen Tedavisi",
+        "searchAverage": 87
+      },
+      {
+        "searchTerm": "Saç Lazer Terapisi",
+        "searchAverage": 41
+      },
+      {
+        "searchTerm": "Saç Dökülmesi Tedavisi",
+        "searchAverage": 94
+      }
+    ]
+  },
+  {
+    "name": "Genital Estetik",
+    "subcategories": [
+      {
+        "searchTerm": "Vajina Daraltma",
+        "searchAverage": 68
+      },
+      {
+        "searchTerm": "Lazerle Vajina Daraltma",
+        "searchAverage": 45
+      },
+      {
+        "searchTerm": "Cerrahi Vajina Daraltma",
+        "searchAverage": 82
+      },
+      {
+        "searchTerm": "Labioplasti (Dudak Estetiği)",
+        "searchAverage": 37
+      },
+      {
+        "searchTerm": "İç Dudak Estetiği",
+        "searchAverage": 65
+      },
+      {
+        "searchTerm": "Dış Dudak Estetiği",
+        "searchAverage": 42
+      },
+      {
+        "searchTerm": "Klitoral Kapak Estetiği",
+        "searchAverage": 71
+      },
+      {
+        "searchTerm": "Vajinal Rejuvenasyon",
+        "searchAverage": 89
+      },
+      {
+        "searchTerm": "Lazerle Vajinal Rejuvenasyon",
+        "searchAverage": 54
+      },
+      {
+        "searchTerm": "Radyofrekansla Vajinal Rejuvenasyon",
+        "searchAverage": 72
+      },
+      {
+        "searchTerm": "PRP ile Vajinal Rejuvenasyon",
+        "searchAverage": 27
+      }
+    ]
+  },
+  {
+    "name": "Diş Estetiği",
+    "subcategories": [
+      {
+        "searchTerm": "Porselen Laminate Veneer",
+        "searchAverage": 66
+      },
+      {
+        "searchTerm": "Porselen Kron ve Köprü Uygulamaları",
+        "searchAverage": 41
+      },
+      {
+        "searchTerm": "Diş Beyazlatma",
+        "searchAverage": 78
+      },
+      {
+        "searchTerm": "Diş İmplantı",
+        "searchAverage": 53
+      },
+      {
+        "searchTerm": "Diş Dolgusu",
+        "searchAverage": 88
+      },
+      {
+        "searchTerm": "Diş Protezi",
+        "searchAverage": 35
+      }
+    ]
+  },
+  {
+    "name": "Cilt Estetiği",
+    "subcategories": [
+      {
+        "searchTerm": "Botoks Uygulamaları",
+        "searchAverage": 79
+      },
+      {
+        "searchTerm": "Dolgu Uygulamaları",
+        "searchAverage": 57
+      },
+      {
+        "searchTerm": "Kimyasal Peeling",
+        "searchAverage": 84
+      },
+      {
+        "searchTerm": "Lazer Cilt Yenileme",
+        "searchAverage": 49
+      },
+      {
+        "searchTerm": "Cilt Sıkılaştırma",
+        "searchAverage": 76
+      },
+      {
+        "searchTerm": "Lazer Epilasyon",
+        "searchAverage": 31
+      },
+      {
+        "searchTerm": "Leke Tedavileri",
+        "searchAverage": 69
+      },
+      {
+        "searchTerm": "Dermapen ve Mikro iğneleme",
+        "searchAverage": 45
+      },
+      {
+        "searchTerm": "PRP (Platelet Zengin Plazma) Tedavisi",
+        "searchAverage": 82
+      },
+      {
+        "searchTerm": "Mezoterapi",
+        "searchAverage": 37
+      },
+      {
+        "searchTerm": "Tattoo Silme (Dövme Silme)",
+        "searchAverage": 65
+      }
+    ]
+  },
+  {
+    "name": "Estetik Dermatoloji",
+    "subcategories": [
+      {
+        "searchTerm": "Botoks Uygulamaları",
+        "searchAverage": 79
+      },
+      {
+        "searchTerm": "Dolgu Uygulamaları",
+        "searchAverage": 57
+      },
+      {
+        "searchTerm": "Kimyasal Peeling",
+        "searchAverage": 84
+      },
+      {
+        "searchTerm": "Lazer Cilt Yenileme",
+        "searchAverage": 49
+      },
+      {
+        "searchTerm": "Cilt Sıkılaştırma",
+        "searchAverage": 76
+      },
+      {
+        "searchTerm": "Lazer Epilasyon",
+        "searchAverage": 31
+      },
+      {
+        "searchTerm": "Leke Tedavileri",
+        "searchAverage": 69
+      },
+      {
+        "searchTerm": "Dermapen ve Mikro iğneleme",
+        "searchAverage": 45
+      },
+      {
+        "searchTerm": "PRP (Platelet Zengin Plazma) Tedavisi",
+        "searchAverage": 82
+      },
+      {
+        "searchTerm": "Mezoterapi",
+        "searchAverage": 37
+      },
+      {
+        "searchTerm": "Tattoo Silme (Dövme Silme)",
+        "searchAverage": 65
+      }
+    ]
+  },
+  {
+    "name": "Lazer Tedavileri",
+    "subcategories": [
+      {
+        "searchTerm": "Lazer Epilasyon",
+        "searchAverage": 76
+      },
+      {
+        "searchTerm": "Lazerle Cilt Yenileme",
+        "searchAverage": 54
+      },
+      {
+        "searchTerm": "Lazerle Leke Tedavisi",
+        "searchAverage": 82
+      },
+      {
+        "searchTerm": "Lazerle Kılcal Damar Tedavisi",
+        "searchAverage": 67
+      },
+      {
+        "searchTerm": "Lazerle Akne Tedavisi",
+        "searchAverage": 48
+      },
+      {
+        "searchTerm": "Lazerle Çatlak Tedavisi",
+        "searchAverage": 71
+      },
+      {
+        "searchTerm": "Lazerle Yara İzi Tedavisi",
+        "searchAverage": 89
+      },
+      {
+        "searchTerm": "Lazerle Dövme Silme",
+        "searchAverage": 63
+      },
+      {
+        "searchTerm": "Lazerle Cilt Sıkılaştırma",
+        "searchAverage": 79
+      },
+      {
+        "searchTerm": "Lazerle Ben Tedavisi",
+        "searchAverage": 56
+      }
+    ]
+  }
+]
