@@ -1,8 +1,11 @@
 import React from 'react'
+import SearchBar from '@/components/searchBar'
 
-const Home = () => {
+const Home:React.FC = () => {
   return (
-    <div>page</div>
+    <>
+      <SearchBar />
+    </>
   )
 }
 
