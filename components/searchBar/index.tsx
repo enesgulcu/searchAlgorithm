@@ -12,7 +12,8 @@ const SearchBar:React.FC = () => {
     
     const  data = MainSearch(searchText);
     if(data){
-      setSearchResult(data)
+      console.log(data)
+      //setSearchResult(data)
     }
     
   }, [searchText])

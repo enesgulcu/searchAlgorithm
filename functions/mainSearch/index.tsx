@@ -6,7 +6,8 @@ const MainSearch = (inputData:any) => {
     const filteredData:any = []
     const filteredKeyDada:any = []
     const statistics:any = []
-    
+    let counter1 = 0;
+    let counter2 = 0;
     
     data.map((item:any, itemIndex:number) => {
         
@@ -18,29 +19,34 @@ const MainSearch = (inputData:any) => {
             const dbSentence = subcatagory.searchTerm
             const dbWordArray = dbSentence.split(' ') // veri tabanındaki cümleleri kelime kelime ayırdık ve arraye attık
             const inputword = inputData.toLowerCase().split(' ') // inputtaki cümleleri kelime kelime ayırdık ve arraye attık
-
+            console.log()
             dbWordArray.map((databaseWord:any, wordIndex:number) => {
-                const mydata = LevenshteinDistance(inputData.toLowerCase(), databaseWord.toLowerCase())
-
-                if((mydata && Number(mydata) > 40) || (inputData.lenght > 2 && databaseWord.toLowerCase().startsWith(inputword[0]) &&filteredData && !filteredData.includes(subcatagory.searchTerm))){
+                let mydata1;
+                let mydata2;
+                if(wordIndex === 0){
+                     mydata1 = LevenshteinDistance(inputData.toLowerCase(), databaseWord.toLowerCase()) // inputtaki cümle ile veri tabanındaki cümlelerin benzerlik oranını bulduk
+                }
+                else{
                     
-                    if(!filteredData.includes(subcatagory.searchTerm)){
-                        filteredData.push(subcatagory.searchTerm)
-                    }
+                     mydata2 = LevenshteinDistance(inputData.toLowerCase(), databaseWord.toLowerCase()) // inputtaki cümle ile veri tabanındaki cümlelerin benzerlik oranını bulduk
                 }
                 
-               
-                if(databaseWord.toLowerCase().startsWith(inputword[0])){
-                   
-                    if(!filteredData.includes(subcatagory.searchTerm)){
-                        filteredData.push(subcatagory.searchTerm)
-                    }
+                
+                if(((mydata1 && Number(mydata1) > 60 && inputData.length > 1 && databaseWord.length <= 4) || (mydata1 && Number(mydata1) > 30 && inputData.length > 1 && databaseWord.length > 4) || (mydata2 && Number(mydata2) > 50 && inputData.length > 1))){
+                    console.log("mydata1 :" + mydata1)
+                    console.log("mydata2 :" + mydata2)
+                    filteredData.push(subcatagory) 
                 }
             })    
         })
     })
-    console.log(filteredData)
-    //return filteredData;
+
+    filteredData.sort((a:any, b:any) => b.searchAvarage - a.searchAvarage);
+
+    console.log('counter1', counter1)
+    console.log('counter2', counter2)
+
+    return filteredData;
     
 
     
