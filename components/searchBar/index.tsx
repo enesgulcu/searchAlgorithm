@@ -27,14 +27,13 @@ const SearchBar:React.FC = () => {
           <input type="search" value={searchText} onChange={(e)=> setSearchText(e.target.value)} className='p-4 rounded-md w-1/2 shadow-md border-blue-300 border-2' name="search" id="search" />
         </form>
       </div>
-    {console.log(searchResult)}
-
       <div className=" w-full h-full p-4">
         {
           
-          searchResult.map((item:any, index:number) => {
+          searchResult && searchResult.map((item:any, index:number) => {
             return (
               <div key={index} className='bg-gray-900 p-1 m-2 rounded-md shadow-md'>
+                
                 <div className='font-bold text-xl text-white'> 
                   <div className="p-1 gap-2 flex">
                   <span>{index} - </span> 
