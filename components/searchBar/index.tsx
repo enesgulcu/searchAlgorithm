@@ -12,8 +12,8 @@ const SearchBar:React.FC = () => {
     
     const  data = MainSearch(searchText);
     if(data){
-      console.log(data)
-      //setSearchResult(data)
+      //console.log(data)
+      setSearchResult(data)
     }
     
   }, [searchText])
@@ -27,14 +27,25 @@ const SearchBar:React.FC = () => {
           <input type="search" value={searchText} onChange={(e)=> setSearchText(e.target.value)} className='p-4 rounded-md w-1/2 shadow-md border-blue-300 border-2' name="search" id="search" />
         </form>
       </div>
-
+    {console.log(searchResult)}
 
       <div className=" w-full h-full p-4">
         {
+          
           searchResult.map((item:any, index:number) => {
             return (
               <div key={index} className='bg-gray-900 p-1 m-2 rounded-md shadow-md'>
-                <p className='font-bold text-xl text-white'> <span>{index} -</span> {item}</p>
+                <div className='font-bold text-xl text-white'> 
+                  <div className="p-1 gap-2 flex">
+                  <span>{index} - </span> 
+                    <div className="bg-gray-700">
+                      Avarage : <span className="bg-red-700">{item.searchAvarage}</span>
+                    </div>    
+                    <div className="bg-gray-700">
+                      Term : <span className="bg-red-700">{item.searchTerm}</span>
+                    </div>  
+                  </div>             
+                </div>
               </div>
             )
           })
